@@ -1,0 +1,34 @@
+{
+  "reports": [
+    {
+      "id": "RPT-001",
+      "bidang": "Pemerintahan",
+      "judul": "Pendataan RT terbaru",
+      "deskripsi": "Perlu sinkronisasi data RT/RW untuk triwulan ini.",
+      "prioritas": "Tinggi",
+      "status": "Diproses",
+      "createdAt": "2026-02-01T08:00:00.000Z"
+    },
+    {
+      "id": "RPT-002",
+      "bidang": "Pembangunan",
+      "judul": "Perbaikan saluran irigasi",
+      "deskripsi": "Kerusakan pada saluran utama perlu tindak lanjut.",
+      "prioritas": "Sedang",
+      "status": "Diajukan",
+      "createdAt": "2026-02-03T10:15:00.000Z"
+    }
+  ],
+  "loans": [
+    {
+      "id": "LOAN-001",
+      "barang": "Proyektor rapat",
+      "jumlah": 1,
+      "dariBidang": "Pemerintahan",
+      "keBidang": "Pembangunan",
+      "alasan": "Presentasi progres pekerjaan fisik desa.",
+      "status": "Disetujui",
+      "createdAt": "2026-02-05T07:30:00.000Z"
+    }
+  ]
+}

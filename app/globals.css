@@ -1,0 +1,13 @@
+:root {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #123;
+  background-color: #f3f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
