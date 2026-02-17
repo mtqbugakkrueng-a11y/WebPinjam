@@ -1,0 +1,87 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header {
+  background: linear-gradient(135deg, #0f4c81, #2e7ec7);
+  color: white;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+
+.input,
+.select,
+.textarea,
+.button {
+  border: 1px solid #c9d3e0;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  font-size: 0.95rem;
+}
+
+.button {
+  background: #0f4c81;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.item {
+  border: 1px solid #dae3ef;
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #48607a;
+}
+
+.statusRow {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .formRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
